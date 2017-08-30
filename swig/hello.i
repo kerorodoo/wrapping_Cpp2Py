@@ -1,10 +1,8 @@
 // hello.i
-%module hello
-
+%module hello 
 %{
 #define SWIG_FILE_WITH_INIT
-#include "hello.h"
+extern void hello();
 %}
 
-
-%include "hello.h"
+extern void hello();

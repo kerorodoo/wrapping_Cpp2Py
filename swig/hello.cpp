@@ -1,10 +1,8 @@
-// hello.cpp
-
-#include "hello.h"
 #include <stdio.h>
+#include "hello.h"
 using namespace std;
 
 void hello()
 {
-    printf("Hello C function call (by swig)");
+    printf("Hello the swig C call\n");
 }
